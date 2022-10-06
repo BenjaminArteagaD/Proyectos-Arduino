@@ -7,7 +7,7 @@ Mega2560, Due:                      20    21
 Leonardo:                            2     3
 */
 
-#include <SFE_BMP180.h>
+#include <SFE_BMP180.h> // descargar librería aquí: https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-/installing-the-arduino-library
 #include <Wire.h>
 
 SFE_BMP180 sensor; // creacion del objeto "sensor"
