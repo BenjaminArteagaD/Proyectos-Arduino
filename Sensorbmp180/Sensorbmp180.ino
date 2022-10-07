@@ -1,4 +1,7 @@
-  
+/* 
+se programa el sensor bmp180 para que lea e imprima en el monitor serial
+temperatura y presión, y en base a eso imprimir igual la altitud 
+*/
 
 /*
 Pines SDA y SCL Arduinos:          SDA   SCL
