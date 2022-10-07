@@ -1,6 +1,6 @@
 /* 
 se programa el sensor bmp180 para que lea e imprima en el monitor serial
-temperatura y presión, y en base a eso imprimir igual la altitud 
+temperatura y presión, y en base a eso imprimir la altitud 
 */
 
 /*
@@ -54,7 +54,7 @@ void loop()
           delay(status); // espera hasta que esté listo
           status = sensor.getPressure(P,T);// Guardamos la presion
           Alt = sensor.altitude(P,P0);
-          //float dif = P-PresNivMar;
+          
           if (status != 0)
           {
             Serial.print(T,2);  // imprime el valor de T en C
